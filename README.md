@@ -7,8 +7,10 @@ git@github.com:adallolio/TS7250V3-toolchain.git
 git clone -b AutoNaut-update git@github.com:adallolio/dune.git
 
 # In the folder with the Dockerfile, build the image:
+docker build --tag armhf-bullseye-toolchain .
 
 # Then run a container:
+docker run --rm -it armhf-bullseye-toolchain bash
 
 # In /home/build, run:
 cmake ../dune
