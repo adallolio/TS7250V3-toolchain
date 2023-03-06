@@ -1,4 +1,5 @@
 # TS7250V3-toolchain
+Cross-compilation environment for TS7250-V3 SBPC from Embedded TS: https://www.embeddedts.com/products/TS-7250-V3
 
 # Clone this repository to host.
 git@github.com:adallolio/TS7250V3-toolchain.git
