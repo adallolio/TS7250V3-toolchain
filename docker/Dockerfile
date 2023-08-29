@@ -22,6 +22,7 @@ RUN apt-get update && apt-get install -y \
     flex \
     gawk \
     gcc-arm-linux-gnueabihf \
+    g++-arm-linux-gnueabihf \
     git \
     gzip \
     kmod \
